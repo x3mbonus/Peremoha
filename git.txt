@@ -1,0 +1,33 @@
+Git
+git init
+git config --list
+git add
+
+git commit -m "first file" 
+
+git commit -a -m "first file",
+
+git diff
+git diff --staged
+git reset HEAD first.txt
+git checkout -- first.txt
+git rm first.txt, git rm --cached first.txt
+gitk --all
+git tag v1, git tag v0 a8b9cb7f042ff518b1f4cfd8de04baed60c7d313
+git log, git log --oneline, git log --stat
+git show 4b28825
+head is pointer to last commit of current branch
+git show d01c1b4:./first.txt
+git clone --bare git_training git_training.git
+git clone git_training.git
+git remote -v
+git rebase
+git pull = git fetch + git merge
+git pull --rebase = git fetch + git rebase
+git checkout --track …
+git push origin master
+git rebase origin/master testing
+git stash, git stash list, git stash pop, git stash apply, git stash branch
+start first.txt
+git gc --prune=now
+git remote prune origin
